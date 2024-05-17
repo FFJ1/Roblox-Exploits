@@ -11,7 +11,6 @@ function Kavo:DraggingEnabled(frame, parent)
         
     parent = parent or frame
     
-    -- stolen from wally or kiriot, kek
     local dragging = false
     local dragInput, mousePos, framePos
 
